@@ -1,7 +1,12 @@
 "use client"
 import Link from "next/link"
 import { useState } from "react"
-import { faBars, faOtter, faXmark } from "@fortawesome/free-solid-svg-icons"
+import {
+  faBars,
+  faOtter,
+  faRobot,
+  faXmark,
+} from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { navLinks } from "@/components/navigation/nav_links"
 import Navlink from "@/components/navigation/Navlink"
@@ -15,9 +20,9 @@ const Navbar = () => {
       <div className="flex flex-wrap justify-between items-center mx-auto px-4 py-2">
         <Link
           href="/"
-          className="text-slate-200 hover:text-white hover:border-white"
+          className="text-slate-200 hover:text-white hover:border-white text-lg sm:text-xl font-semibold"
         >
-          <FontAwesomeIcon icon={faOtter} className="h-6 w-6" />
+          Your Logo
         </Link>
         <div className="block md:hidden">
           {!isMenuOpen ? (
