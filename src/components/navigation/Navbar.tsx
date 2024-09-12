@@ -22,7 +22,7 @@ const Navbar = () => {
           href="/"
           className="text-slate-200 hover:text-white hover:border-white text-lg sm:text-xl font-semibold"
         >
-          Your Logo
+          EB
         </Link>
         <div className="block md:hidden">
           {!isMenuOpen ? (

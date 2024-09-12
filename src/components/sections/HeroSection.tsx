@@ -2,7 +2,7 @@ import { TypewriterEffect } from "@/components/ui/TypewriterEffect"
 import Image from "next/image"
 
 const HeroSection = () => {
-  const words = [{ text: "John" }, { text: "Doe" }]
+  const words = [{ text: "Ethan" }, { text: "Blackwell" }]
 
   return (
     <section className="pt-0 pb-16 px-4 sm:py-24 xl:px-16">
