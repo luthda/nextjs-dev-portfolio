@@ -9,6 +9,10 @@ export const navLinks: NavLink[] = [
     title: "About me",
   },
   {
+    link: "/#skills",
+    title: "Skills",
+  },
+  {
     link: "/#projects",
     title: "Projects",
   },
