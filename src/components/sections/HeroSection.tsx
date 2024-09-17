@@ -2,10 +2,10 @@ import { TypewriterEffect } from "@/components/ui/TypewriterEffect"
 import Image from "next/image"
 
 const HeroSection = () => {
-  const words = [{ text: "Ethan" }, { text: "Blackwell" }]
+  const words = [{ text: "Ethan" }, { text: "Forster" }]
 
   return (
-    <section className="pt-0 pb-16 px-4 sm:py-24 xl:px-16">
+    <section className="pt-0 pb-16 px-0 sm:py-24 xl:px-16">
       <div className="grid grid-cols-1 sm:grid-cols-12">
         <div className="col-span-8 place-self-center text-left justify-self-start">
           <div className="-mx-3 sm:mx-0">
@@ -19,7 +19,7 @@ const HeroSection = () => {
         <div className="col-span-4 place-self-center mt-4 lg:mt-0">
           <Image
             src="/assets/hero.png"
-            alt="John Doe hero image"
+            alt="Ethan Forster hero image"
             priority={true}
             className="rounded-lg"
             width={500}
