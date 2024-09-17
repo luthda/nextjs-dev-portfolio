@@ -1,4 +1,4 @@
-import { HeroTypewriterEffect } from "@/components/ui/HeroTypewriterEffect"
+import HeroTypewriterEffect from "@/components/ui/HeroTypewriterEffect"
 import Image from "next/image"
 
 const HeroSection = () => {

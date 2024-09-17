@@ -1,5 +1,5 @@
 import { skills } from "@/components/skills/skills"
-import { SkillCardsHoverEffect } from "@/components/ui/SkillCardsHoverEffect"
+import SkillCardsHoverEffect from "@/components/ui/SkillCardsHoverEffect"
 
 const SkillsSection = () => {
   return (

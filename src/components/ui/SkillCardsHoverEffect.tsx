@@ -6,7 +6,7 @@ import { useState } from "react"
 import { Skill } from "@/components/skills/skills"
 import SkillCard from "@/components/skills/SkillCard"
 
-export const SkillCardsHoverEffect = ({
+const SkillCardsHoverEffect = ({
   skills,
   className,
 }: {
@@ -53,3 +53,5 @@ export const SkillCardsHoverEffect = ({
     </div>
   )
 }
+
+export default SkillCardsHoverEffect

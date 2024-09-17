@@ -2,7 +2,7 @@
 import { cn } from "@/utils/cn"
 import { motion } from "framer-motion"
 
-export const HeroTypewriterEffect = ({
+const HeroTypewriterEffect = ({
   words,
   className,
   cursorClassName,
@@ -87,3 +87,5 @@ export const HeroTypewriterEffect = ({
     </div>
   )
 }
+
+export default HeroTypewriterEffect
