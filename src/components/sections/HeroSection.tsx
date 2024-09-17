@@ -1,15 +1,15 @@
-import { TypewriterEffect } from "@/components/ui/TypewriterEffect"
+import { HeroTypewriterEffect } from "@/components/ui/HeroTypewriterEffect"
 import Image from "next/image"
 
 const HeroSection = () => {
-  const words = [{ text: "Ethan" }, { text: "Forster" }]
+  const words = [{ text: "Ethan" }, { text: "Frost" }]
 
   return (
     <section className="pt-0 pb-16 px-0 sm:py-24 xl:px-16">
       <div className="grid grid-cols-1 sm:grid-cols-12">
         <div className="col-span-8 place-self-center text-left justify-self-start">
           <div className="-mx-3 sm:mx-0">
-            <TypewriterEffect words={words} className="font-serif" />
+            <HeroTypewriterEffect words={words} className="font-serif" />
           </div>
           <p className="text-base sm:text-lg mb-6 lg:text-xl">
             Building bridges between code and operations, I craft scalable
@@ -19,7 +19,7 @@ const HeroSection = () => {
         <div className="col-span-4 place-self-center mt-4 lg:mt-0">
           <Image
             src="/assets/hero.png"
-            alt="Ethan Forster hero image"
+            alt="Ethan Forst hero image"
             priority={true}
             className="rounded-lg"
             width={500}
