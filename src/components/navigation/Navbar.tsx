@@ -1,16 +1,11 @@
 "use client"
-import Link from "next/link"
-import { useState } from "react"
-import {
-  faBars,
-  faOtter,
-  faRobot,
-  faXmark,
-} from "@fortawesome/free-solid-svg-icons"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import GithubLinkIcon from "@/components/navigation/GithubLinkIcon"
 import { navLinks } from "@/components/navigation/nav_links"
 import Navlink from "@/components/navigation/Navlink"
-import GithubLinkIcon from "@/components/navigation/GithubLinkIcon"
+import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import Link from "next/link"
+import { useState } from "react"
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)

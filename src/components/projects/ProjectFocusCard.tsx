@@ -1,5 +1,6 @@
 import { cn } from "@/utils/cn"
 import Image from "next/image"
+import Link from "next/link"
 import React from "react"
 
 const ProjectFocusCard = React.memo(
@@ -14,7 +15,9 @@ const ProjectFocusCard = React.memo(
     hovered: number | null
     setHovered: React.Dispatch<React.SetStateAction<number | null>>
   }) => (
-    <div
+    <Link
+      href={card.href}
+      target="_blank"
       onMouseEnter={() => setHovered(index)}
       onMouseLeave={() => setHovered(null)}
       className={cn(
@@ -28,17 +31,12 @@ const ProjectFocusCard = React.memo(
         fill
         className="object-cover absolute inset-0"
       />
-      <div
-        className={cn(
-          "absolute inset-0 bg-black/50 flex items-end py-8 px-4 transition-opacity duration-300",
-          hovered === index ? "opacity-100" : "opacity-0"
-        )}
-      >
+      <div className="absolute inset-0 bg-black/50 flex items-end py-8 px-4 transition-opacity duration-300">
         <div className="text-xl md:text-2xl font-medium bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-200">
           {card.title}
         </div>
       </div>
-    </div>
+    </Link>
   )
 )
 
