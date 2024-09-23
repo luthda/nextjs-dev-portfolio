@@ -1,5 +1,4 @@
 "use client"
-
 import ProjectFocusCard from "@/components/projects/ProjectFocusCard"
 import { Project } from "@/components/projects/projects"
 import { useState } from "react"

@@ -6,7 +6,7 @@ const GithubLinkIcon = () => {
   return (
     <Link
       href="https://github.com/luthda/nextjs-dev-portfolio"
-      className="flex items-center px-2 py-2 text-slate-200 hover:text-white hover:border-white"
+      className="flex items-center px-2 py-2 text-slate-200 hover:text-white"
       target="_blank"
     >
       <FontAwesomeIcon icon={faGithub} className="h-6 w-6" />

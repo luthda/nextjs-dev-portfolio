@@ -1,10 +1,10 @@
 "use client"
+import SkillCard from "@/components/skills/SkillCard"
+import { Skill } from "@/components/skills/skills"
 import { cn } from "@/utils/cn"
 import { AnimatePresence, motion } from "framer-motion"
 import Link from "next/link"
 import { useState } from "react"
-import { Skill } from "@/components/skills/skills"
-import SkillCard from "@/components/skills/SkillCard"
 
 const SkillCardsHoverEffect = ({
   skills,
