@@ -8,13 +8,14 @@ const ImprintPage = () => {
       <section className="container mt-24 mx-auto mb-36 px-12 py-4 space-y-4">
         <h1 className="text-4xl font-bold font-serif">Imprint</h1>
         <h2 className="text-xl font-bold">Contact Information</h2>
-        <p>[Name]</p>
-        <p>[Address]</p>
-        <p>[Email]</p>
-        <p>[Phone]</p>
+        <ul>
+          <li>[Name]</li>
+          <li>[Address]</li>
+          <li>[Email]</li>
+          <li>[Phone]</li>
+        </ul>
         <h2 className="text-xl font-bold">MIT License</h2>
         <p>Copyright (c) 2024 David Luthiger</p>
-        <h2 className="text-xl font-bold"></h2>
         <p>
           Permission is hereby granted, free of charge, to any person obtaining
           a copy of this software and associated documentation files (the
